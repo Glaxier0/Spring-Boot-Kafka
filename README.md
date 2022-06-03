@@ -14,7 +14,7 @@ gradle build
 docker build -t {your_docker_hub_name}/{image_name}:1.0 .
 ```
  - You have to do gradle build and docker build in each consumer/producer roots
- - After that don't forget to change producer and consumer image names according to newly created images.
+ - After that don't forget to change [producer](https://github.com/Glaxier0/Spring-Boot-Kafka/blob/bedaaf10279d3e2eb57d67642ea693630a6b1d10/docker-compose.yml#L24) and [consumer](https://github.com/Glaxier0/Spring-Boot-Kafka/blob/bedaaf10279d3e2eb57d67642ea693630a6b1d10/docker-compose.yml#L36) image names according to newly created images.
  - Now you are ready to go the next [step](https://github.com/Glaxier0/Spring-Boot-Kafka#how-to-run)
 
 # How to run
