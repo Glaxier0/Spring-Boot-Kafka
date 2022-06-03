@@ -2,7 +2,7 @@
 Kafka producer/consumer docker-compose app with producer rest api written in Java Spring Boot
 
 # How to build
-This step is redundant if you just want to use program. Folow this steps if you want to change the code. Otherwise follow [this](https://github.com/Glaxier0/Spring-Boot-Kafka#how-to-run).
+This step is redundant if you just want to use program. Follow this steps if you want to change the code. Otherwise follow [this](https://github.com/Glaxier0/Spring-Boot-Kafka#how-to-run).
  - If you want to build your own images instead of pulling from mine docker hub.
  - First thing you have to do is go in to each producer and consumer roots.
  - And run gradle build.
