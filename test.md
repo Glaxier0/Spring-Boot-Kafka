@@ -3,15 +3,8 @@
 <!--
 
 <!-- PROJECT SHIELDS -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -52,7 +45,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+This project includes Kafka Producer REST API, Kafka Consumer and docker compose file. API and consumer written in Java Spring Boot. Anyone can make a request to API using JSON.
 
 ![image](https://user-images.githubusercontent.com/72802777/171815449-40469457-0327-45b3-b24b-dde58c152500.png)
 
@@ -64,7 +57,8 @@
 ### Built With
 
 * Apache Kafka
-* JAVA
+* Java
+* Spring Boot
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -101,12 +95,14 @@ This is an example of how to list things you need to use the software and how to
 ## Usage
 
 Send this data to check if its working by using postman
+```
 curl -X POST 'http://localhost:8080/message' \
 -H 'Content-Type: application/json' \
 --data '{
     "title":"test title",
     "description":"test description"
 }'
+```
 
 
 
