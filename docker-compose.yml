@@ -21,7 +21,7 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
 
   producer:
-    image: glaxier0/producer:latest
+    image: glaxier0/producer:1.0
     ports:
       - "8080:8080"
     depends_on:
@@ -33,7 +33,7 @@ services:
       SPRING_KAFKA_PRODUCER_VALUE_SERIALIZER: org.apache.kafka.common.serialization.StringSerializer
 
   consumer:
-    image: glaxier0/consumer:latest
+    image: glaxier0/consumer:1.0
     depends_on:
       - kafka
       - producer
