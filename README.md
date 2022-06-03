@@ -1,5 +1,5 @@
 # Spring-Boot-Kafka-Producer-Consumer-with-Docker-Compose
-Kafka producer/consumer docker-compose app with producer rest api by Java Spring Boot
+Kafka producer/consumer docker-compose app with producer rest api written in Java Spring Boot
 
 # How to build
 This step is redundant if you just want to use program. Folow this steps if you want to change the code. Otherwise follow [this](https://github.com/Glaxier0/Spring-Boot-Kafka#how-to-run).
