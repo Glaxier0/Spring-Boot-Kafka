@@ -25,6 +25,8 @@ Scan through our [existing issues](https://github.com/Glaxier0/Spring-Boot-Kafka
 
 For more information about using a codespace for working on GitHub documentation, see "[Working in a codespace](https://github.com/github/docs/blob/main/contributing/codespace.md)."
 
+### Make Changes
+
 #### Make changes locally
 
 1. Fork the repository.
